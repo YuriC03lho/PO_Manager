@@ -1,0 +1,20 @@
+:root{
+    --cor-background: #2021D4;
+    --cor-texto: #ffff;
+    --cor-background-texto: #EEEDED;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+body{
+    background-color: #EEEDED ;
+    
+}
+@font-face{
+    font-family: "Onest-Bold";
+    src: url(./PO_Manager/PO_Manager/www/fonts/Onest-Bold.ttf);
+
+}
+
