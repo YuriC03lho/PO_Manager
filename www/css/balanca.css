@@ -1,3 +1,8 @@
+:root{
+    --cor-background: #2021D4;
+    --cor-texto: #ffff;
+    --cor-background-texto: #EEEDED;
+}
 header{
     background-color: var(--cor-background);
     color: var(--cor-texto);
@@ -15,7 +20,7 @@ header{
 
     
 }
-main,{
+main{
      display: grid;
      justify-content: center;
      align-items: center;
@@ -27,11 +32,24 @@ p{
     align-items: center;
     
 }
+.bg-p-alt{
+background-color: #FFFF;
+    display: none ;
+    margin-top: 1rem;
+    padding: 1rem;
+    text-align: center;
+   
+   
+}
 .bg-p{
     background-color: #FFFF;
-    padding: 1rem;
-
+    
+    padding:  1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-top: 1rem;
+    text-align: center;
     
 }
 .input-style{
@@ -42,11 +60,39 @@ p{
      border-width: 1.2px;
      background-color: var(--cor-background);
      font-size: 20px;
-     padding: 10px;
+     padding: 8px;
     width: 94%;
     display: flex;
     justify-content: center;
     align-items: center;
      
    
+}
+#mensagem{
+   display: none;
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 20px;
+  background-color: #2021D4;
+  color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  z-index: 9999;
+  font-size: 16px;
+  text-align: left;
+  max-width: 300px;
+}
+.bug-alert{
+    background-color: var(--cor-background);
+    border-radius: 15px;
+     border-width: 1.2px;
+     font-size: 18px;
+     color: var(--cor-texto);
+     margin-top: 15px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     padding: 25px;
 }

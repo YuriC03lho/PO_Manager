@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="io.yuriviera.gerenciador-po" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="io.yuriviera.gerenciador.po" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Gerenciador PO</name>
     <description>Gerenciador de APPS do Time Consumax</description>
     <author email="yuricoelhovieira@gmail.com" href="https://github.com/YuriC03lho/PO_Manager">
@@ -8,4 +8,16 @@
     <content src="index.html" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
+    <plugin name="cordova-plugin-splashscreen" spec="^6.0.0" />
+    <platform name="android">
+    
+    <icon src="resources/icons/android/icon-72-hdpi.png" density="xhdpi" />
+     <preference name="SplashScreen" value="screen" />
+<    preference name="SplashScreenDelay" value="3000" />
+<preference name="FadeSplashScreenDuration" value="500" />
+<preference name="AutoHideSplashScreen" value="true" />
+<preference name="SplashMaintainAspectRatio" value="true" />
+    
+    <splash src="res/splash.png" density="mdpi"/>
+</platform>
 </widget>

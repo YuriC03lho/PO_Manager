@@ -27,12 +27,13 @@ display: flex;
 justify-content: center;
 align-items: center;
 
+padding-top: 45px;
 }
 
 footer{
     color: var(--cor-background);
     font-size: 20px;
-    padding-top: 20rem;
+    padding-top: 29rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -47,14 +48,21 @@ footer{
     width: 50px;
 }
 .btn-static{
-    
+    display: flex;
+    justify-content: centr;
+    align-items: center;
     color: var(--cor-texto);
-     margin-top: 3rem;
+     
      border-color: var(--cor-background);
      border-radius: 15px;
      border-width: 1.2px;
      
      background-color: var(--cor-background);
      font-size: 25px;
+     
     }
 
+    a{
+        text-decoration: none;
+        
+    }
