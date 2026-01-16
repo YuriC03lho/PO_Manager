@@ -74,7 +74,8 @@ Este projeto é **pessoal e não comercial**.
 - 📱 Experiência com **Web, Android (Cordova) e automação de processos**  
 - 🧠 Código **simples, legível e funcional**  
 - 📂 Repositório **organizado e documentado**  
-
+- ❌ Não á como rodar sem ter o Apache para gerar um APK
+  
 **Este projeto demonstra:**
 
 - ✅ Capacidade de identificar problemas reais  
