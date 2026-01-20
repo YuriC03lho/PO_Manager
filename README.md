@@ -30,7 +30,6 @@ O projeto é escrito em **HTML, CSS e JavaScript**, podendo ser **compilado para
 - 🧱 HTML5  
 - 🎨 CSS3  
 - 🧠 JavaScript (ES6)  
-- 💻 VSCode.dev  
 - 📱 Apache Cordova (Android)  
 
 ---
